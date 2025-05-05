@@ -16,8 +16,8 @@ A command-line interface program for utility function, currently including:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/rename-cli.git
-cd rename-cli
+git clone https://github.com/levistark/mycli.git
+cd mycli
 npm install
 npm run build
 npm link
