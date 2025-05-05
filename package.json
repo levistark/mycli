@@ -1,0 +1,28 @@
+{
+  "name": "rename-cli",
+  "version": "1.0.0",
+  "description": "My first custom CLI tool",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "mycli": "./dist/index.js"
+  },
+  "keywords": ["cli", "renaming", "files"],
+  "author": "Levi Stark",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "commander": "^13.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
